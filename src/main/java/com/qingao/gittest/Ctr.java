@@ -12,4 +12,10 @@ public class Ctr {
 	public String aa(){
 		return "呵呵";
 	}
+	
+	@RequestMapping("/bb")
+	@ResponseBody
+	public String bb(){
+		return "哈哈";
+	}
 }
