@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Ctr2 {
 	
+	private String str = "xyz";
+	
 	@RequestMapping("/cc")
 	public String cc(){
 		return "嘿嘿";
