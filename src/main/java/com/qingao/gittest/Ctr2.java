@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Ctr2 {
 	
-	private String str = "xyz";
+	private String str = "abcxyz";
 	
 	@RequestMapping("/cc")
 	public String cc(){
